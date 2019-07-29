@@ -42,6 +42,7 @@ reason=seriler.reason;
 putin=seriler.putin; 
 yankee=seriler.yankee; 
 yuusha=seriler.yuusha; 
+wolf=seriler.wolf;
 slimen=seriler.slimen; 
 gb=seriler.gb; 
 grimgar=seriler.grimgar; 
@@ -231,6 +232,11 @@ client.on('message', msg => {
 	 }
 	 
 	  if (msg.content.includes('Yuusha ga Shinda!')) 
+	 {
+    msg.reply(yuusha);
+	 }
+	
+	  if (msg.content.includes('The Wolf Won't Sleep -ArazNovel')) 
 	 {
     msg.reply(yuusha);
 	 }
