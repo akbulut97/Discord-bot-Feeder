@@ -236,7 +236,7 @@ client.on('message', msg => {
     msg.reply(yuusha);
 	 }
 	
-	  if (msg.content.includes('The Wolf Won't Sleep -ArazNovel')) 
+	  if (msg.content.includes('The Wolf Won')) 
 	 {
     msg.reply(yuusha);
 	 }
