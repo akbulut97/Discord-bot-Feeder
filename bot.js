@@ -65,230 +65,228 @@ client.on('ready', () => {
 client.on('message', msg => {
 	
 	//Manga başı
-	
 	 if (msg.content.includes('Almadianos')) 
 	 {
-    msg.reply(alma);
+    msg.channel.send(alma);
 	 }
 	 
 	 if (msg.content.includes('Assassin de')) 
 	 {
-    msg.reply(assa);
+    msg.channel.send(assa);
 	 }
 	 
 	  if (msg.content.includes('Baki the')) 
 	 {
-    msg.reply(baki);
+    msg.channel.send(baki);
 	 }
 	 
 	  if (msg.content.includes('Class ga')) 
 	 {
-    msg.reply(clas);
+    msg.channel.send(clas);
 	 }
 	 if (msg.content.includes('Demon Spirit')) 
 	 {
-    msg.reply(demon);
+    msg.channel.send(demon);
 	 }
 	 
 	 if (msg.content.includes('Dons Adventure')) 
 	 {
-    msg.reply(don);
+    msg.channel.send(don);
 	 }
 	 
 	  if (msg.content.includes('Eden Game')) 
 	 {
-    msg.reply(eden);
+    msg.channel.send(eden);
 	 }
 	 
 	  if (msg.content.includes('Exterminator')) 
 	 {
-    msg.reply(ex);
+    msg.channel.send(ex);
 	 }
 	 
 	 	 if (msg.content.includes('Gaikotsu Kishi-sama,')) 
 	 {
-    msg.reply(gai);
+    msg.channel.send(gai);
 	 }
 	  	 if (msg.content.includes('Gal Gohan')) 
 	 {
-    msg.reply(gal);
+    msg.channel.send(gal);
 	 }
 	 
 	 if (msg.content.includes('Handyman Saitou')) 
 	 {
-    msg.reply(Handy);
+    msg.channel.send(Handy);
 	 }
 	 
 	  if (msg.content.includes('Hiru to Yoru ')) 
 	 {
-    msg.reply(hiru);
+    msg.channel.send(hiru);
 	 }
 	 
 
 	 if (msg.content.includes('İnstant Bullet')) 
 	 {
-    msg.reply(ib);
+    msg.channel.send(ib);
 	 }
 	 
 	 if (msg.content.includes('Isekai Cheat Magician')) 
 	 {
-    msg.reply(icm);
+    msg.channel.send(icm);
 	 }
 	 
 	  if (msg.content.includes('I Shall Become ')) 
 	 {
-    msg.reply(queen);
+    msg.channel.send(queen);
 	 }
 	 
 	  if (msg.content.includes('Kono Yuusha ga Ore')) 
 	 {
-    msg.reply(konoy);
+    msg.channel.send(konoy);
 	 }	
 	 if (msg.content.includes('https://www.araznovel.com/manga/kuro-no-shoukanshi/')) 
 	 {
-    msg.reply(kurom);
+    msg.channel.send(kurom);
 	 }
 	 
 	 if (msg.content.includes('Lovecome Like')) 
 	 {
-    msg.reply(oni);
+    msg.channel.send(oni);
 	 }
 	 
 	  if (msg.content.includes('Limbless Schira')) 
 	 {
-    msg.reply(limbless);
+    msg.channel.send(limbless);
 	 }
 	 
 	  if (msg.content.includes('Modern Mogal')) 
 	 {
-    msg.reply(mogal);
+    msg.channel.send(mogal);
 	 }
 	 if (msg.content.includes('Murenase! Shiiton')) 
 	 {
-    msg.reply(murenase);
+    msg.channel.send(murenase);
 	 }
 	 
 	if (msg.content.includes('Nejimaki Kagyuu')) 
 	 {
-    msg.reply(nejimaki);
+    msg.channel.send(nejimaki);
 	 }
 	 
 	if (msg.content.includes('Nidoume no Jinsei')) 
 	 {
-    msg.reply(nidome);
+    msg.channel.send(nidome);
 	 }
 	 
 	if (msg.content.includes('Ore ga Heroine o')) 
 	 {
-    msg.reply(orega);
+    msg.channel.send(orega);
 	 }
 	 
 	if (msg.content.includes('Tensei Kyuuketsuki-san')) 
 	 {
-    msg.reply(tensei);
+    msg.channel.send(tensei);
 	 }
 	  if (msg.content.includes('Saikyou no Shokugyou')) 
 	 {
-    msg.reply(saikyo);
+    msg.channel.send(saikyo);
 	 }
 	 
 	 if (msg.content.includes('https://www.araznovel.com/manga/tensei-shitara-slime-datta-ken/')) 
 	 {
-    msg.reply(slimem);
+    msg.channel.send(slimem);
 	 }
 	 
 	  if (msg.content.includes('Mamono no Kuni no')) 
 	 {
-    msg.reply(yanslime);
+    msg.channel.send(yanslime);
 	 }
 	 
 	  
 	  if (msg.content.includes('Mob Psycho 100')) 
 	 {
-    msg.reply(mob);
+    msg.channel.send(mob);
 	 }
 	 
 	  if (msg.content.includes('Ten Thousand')) 
 	 {
-    msg.reply(tengod);
+    msg.channel.send(tengod);
 	 }
 	 if (msg.content.includes('The Fiancées')) 
 	 {
-    msg.reply(fiance);
+    msg.channel.send(fiance);
 	 }
 	  if (msg.content.includes('The Ride On King')) 
 	 {
-    msg.reply(putin);
+    msg.channel.send(putin);
 	 }
 	 
 	 
 	 if (msg.content.includes('The Reason Why Raeliana')) 
 	 {
-    msg.reply(reason);
+    msg.channel.send(reason);
 	 }
 	 
 	  if (msg.content.includes('Yankee Wa Isekai De')) 
 	 {
-    msg.reply(yankee);
+    msg.channel.send(yankee);
 	 }
 	 
 	  if (msg.content.includes('Yuusha ga Shinda!')) 
 	 {
-    msg.reply(yuusha);
+    msg.channel.send(yuusha);
 	 }
 	
 	  if (msg.content.includes('The Wolf Won')) 
 	 {
-    msg.reply(yuusha);
+    msg.channel.send(yuusha);
 	 }
 	 //manga Sonu
 	 
 	  //novel baş
 	 if (msg.content.includes('https://www.araznovel.com/manga/tensei-shitara-slime-datta-ken-2/')) 
 	 {
-    msg.reply(slimen);
+    msg.channel.send(slimen);
 	 }
 	 if (msg.content.includes('Glutton Berserker')) 
 	 {
-    msg.reply(gb);
+    msg.channel.send(gb);
 	 }
 	if (msg.content.includes('Hai to Gensou no Grimgar')) 
 	 {
-    msg.reply(grimgar);
+    msg.channel.send(grimgar);
 	 }
 	if (msg.content.includes('No Game No Life -ArazNovel')) 
 	 {
-    msg.reply(ngnl);
+    msg.channel.send(ngnl);
 	 }
 	if (msg.content.includes('Super God Gene')) 
 	 {
-    msg.reply(supergene);
+    msg.channel.send(supergene);
 	 }
 	if (msg.content.includes('Sono Mono, Nochi Ni...')) 
 	 {
-    msg.reply(sono);
+    msg.channel.send(sono);
 	 }
 	if (msg.content.includes('Age of Adepts')) 
 	 {
-    msg.reply(age);
+    msg.channel.send(age);
 	 }
 	if (msg.content.includes('Sevens -ArazNovel')) 
 	 {
-    msg.reply(sevens);
+    msg.channel.send(sevens);
 	 }
 	 if (msg.content.includes('https://www.araznovel.com/manga/kuro-no-shoukanshi-novel/')) 
 	 {
-    msg.reply(kuron);
+    msg.channel.send(kuron);
 	 }
 	 if (msg.content.includes('Extraordinary Genius')) 
 	 {
-    msg.reply(extra);
+    msg.channel.send(extra);
 	 }
 	  if (msg.content.includes('Shinigami wo Tabeta Shoujo')) 
 	 {
-    msg.reply(shinigami);
+    msg.channel.send(shinigami);
 	 }
-	 
 	 
 	//novel sonu
 
