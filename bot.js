@@ -59,7 +59,7 @@ shinigami=seriler.shinigami;
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-  bot.user.setGame('ArazNovelde Seri Okuyor... ')
+  bot.user.setGame('ArazNovelde Seri Okuyor... ');
 });
 
 client.on('message', msg => {
