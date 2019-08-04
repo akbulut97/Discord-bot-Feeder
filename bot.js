@@ -94,7 +94,7 @@ client.on('message', msg => {
     msg.channel.send(demon);
 	 }
 	 
-	 if (msg.content.includes('Dons Adventure')) 
+	 if (msg.content.includes('https://www.araznovel.com/manga/dons-adventure-in-another-world/')) 
 	 {
     msg.channel.send(don);
 	 }
