@@ -11,6 +11,7 @@ alma=seriler.alma;
 assa=seriler.assa;
 baki=seriler.baki;
 clas=seriler.clas;
+col=seriler.col;
 demon=seriler.demon;
 don=seriler.don; 
 eden=seriler.eden; 
@@ -83,6 +84,10 @@ client.on('message', msg => {
 	  if (msg.content.includes('Class ga')) 
 	 {
     msg.channel.send(clas);
+	 }
+	  if (msg.content.includes('Child Of Light')) 
+	 {
+    msg.channel.send(col);
 	 }
 	 if (msg.content.includes('Demon Spirit')) 
 	 {
