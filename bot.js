@@ -56,6 +56,8 @@ kuron=seriler.kuron;
 extra=seriler.extra;
 mob=seriler.mob; 
 shinigami=seriler.shinigami; 
+ae=seriler.ae;
+ef=seriler.ef;
 
 
 client.on('ready', () => {
@@ -69,6 +71,11 @@ client.on('message', msg => {
 	 if (msg.content.includes('Almadianos')) 
 	 {
     msg.channel.send(alma);
+	 }
+	 
+	  if (msg.content.includes('Americano-Exodus')) 
+	 {
+    msg.channel.send(ae);
 	 }
 	 
 	 if (msg.content.includes('Assassin de')) 
@@ -102,6 +109,10 @@ client.on('message', msg => {
 	  if (msg.content.includes('Eden Game')) 
 	 {
     msg.channel.send(eden);
+	 }
+	  if (msg.content.includes('EVERFALLEN')) 
+	 {
+    msg.channel.send(ef);
 	 }
 	 
 	  if (msg.content.includes('Exterminator')) 
