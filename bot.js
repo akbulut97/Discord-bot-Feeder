@@ -58,7 +58,7 @@ mob=seriler.mob;
 shinigami=seriler.shinigami; 
 ae=seriler.ae;
 ef=seriler.ef;
-
+wh= seriler.WH;
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
@@ -76,6 +76,10 @@ client.on('message', msg => {
 	  if (msg.content.includes('Americano-Exodus')) 
 	 {
     msg.channel.send(ae);
+	 }
+	  if (msg.content.includes('Arrogant CEO: Wife Hunter')) 
+	 {
+    msg.channel.send(wh);
 	 }
 	 
 	 if (msg.content.includes('Assassin de')) 
