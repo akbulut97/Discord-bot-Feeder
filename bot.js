@@ -67,17 +67,29 @@ client.on('ready', () => {
 //Manga başı
 client.on('message', msg => {
 	//Almadianos
-	if (msg.content.includes('Almadianos'))
+	 if (msg.content.includes('Almadianos')) 
 	 {
-    msg.reply(alma);
+    msg.channel.send(alma);
 	 }
-	//Almadianos
-  
-  	//Almadianos
-  	if (msg.content.includes('Americano'))
-  	 {
-      msg.reply('sa');
-  	 }
+	 
+	  if (msg.content.includes('Americano-Exodus')) 
+	 {
+    msg.channel.send(ae);
+	 }
+	  if (msg.content.includes('Arrogant CEO: Wife Hunter')) 
+	 {
+    msg.channel.send(wh);
+	 }
+	 
+	 if (msg.content.includes('Assassin de')) 
+	 {
+    msg.channel.send(assa);
+	 }
+	 
+	  if (msg.content.includes('Baki the')) 
+	 {
+    msg.channel.send(baki);
+	 }
   	//Almadianos
     });
 
