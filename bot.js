@@ -1,76 +1,85 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const ayarlar= require('./ayarlar.json')
-const roller= require('./roller.json')
+const seriler= require('./seriler.json')
 
 
 token= ayarlar.token;
 
 
-alma=roller.alma;
-assa=roller.assa;
-baki=roller.baki;
-clas=roller.clas;
-demon=roller.demon;
-don=roller.don; 
-eden=roller.eden; 
-ex=roller.ex; 
-gai=roller.gai; 
-Handy=roller.Handy; 
-gal=roller.gal; 
-hiru=roller.hiru; 
-hyulla=roller.hyulla; 
-ib=roller.ib; 
-icm=roller.icm; 
-queen=roller.queen; 
-kurom=roller.kurom; 
-konoy=roller.konoy; 
-oni=roller.oni; 
-limbless=roller.limbless; 
-mogal=roller.mogal; 
-murenase=roller.murenase; 
-nejimaki=roller.nejimaki; 
-nidome=roller.nidome; 
-orega=roller.orega; 
-saikyo=roller.saikyo; 
-tensei=roller.tensei; 
-slimem=roller.slimem; 
-yanslime=roller.yanslime; 
-tengod=roller.tengod; 
-fiance=roller.fiance; 
-reason=roller.reason; 
-putin=roller.putin; 
-yankee=roller.yankee; 
-yuusha=roller.yuusha; 
-wolf=roller.wolf;
-slimen=roller.slimen; 
-gb=roller.gb; 
-grimgar=roller.grimgar; 
-ngnl=roller.ngnl; 
-supergene=roller.supergene; 
-sono=roller.sono; 
-age=roller.age; 
-sevens=roller.sevens; 
-kuron=roller.kuron; 
-extra=roller.extra;
-mob=roller.mob; 
-shinigami=roller.shinigami; 
-
+alma=seriler.alma;
+assa=seriler.assa;
+baki=seriler.baki;
+clas=seriler.clas;
+col=seriler.col;
+demon=seriler.demon;
+don=seriler.don; 
+eden=seriler.eden; 
+ex=seriler.ex; 
+gai=seriler.gai; 
+Handy=seriler.Handy; 
+gal=seriler.gal; 
+hiru=seriler.hiru; 
+hyulla=seriler.hyulla; 
+ib=seriler.ib; 
+icm=seriler.icm; 
+queen=seriler.queen; 
+kurom=seriler.kurom; 
+konoy=seriler.konoy; 
+oni=seriler.oni; 
+limbless=seriler.limbless; 
+mogal=seriler.mogal; 
+murenase=seriler.murenase; 
+nejimaki=seriler.nejimaki; 
+nidome=seriler.nidome; 
+orega=seriler.orega; 
+saikyo=seriler.saikyo; 
+tensei=seriler.tensei; 
+slimem=seriler.slimem; 
+yanslime=seriler.yanslime; 
+tengod=seriler.tengod; 
+fiance=seriler.fiance; 
+reason=seriler.reason; 
+putin=seriler.putin; 
+yankee=seriler.yankee; 
+yuusha=seriler.yuusha; 
+wolf=seriler.wolf;
+slimen=seriler.slimen; 
+gb=seriler.gb; 
+grimgar=seriler.grimgar; 
+ngnl=seriler.ngnl; 
+supergene=seriler.supergene; 
+sono=seriler.sono; 
+age=seriler.age; 
+sevens=seriler.sevens; 
+kuron=seriler.kuron; 
+extra=seriler.extra;
+mob=seriler.mob; 
+shinigami=seriler.shinigami; 
+ae=seriler.ae;
+ef=seriler.ef;
+wh= seriler.wh;
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-  
-  
   client.user.setActivity('ArazNovel Serilerinin Yolunu', { type: 'WATCHING' });
 });
 
 client.on('message', msg => {
 	
 	//Manga başı
-	
 	 if (msg.content.includes('Almadianos')) 
 	 {
     msg.channel.send(alma);
+	 }
+	 
+	  if (msg.content.includes('Americano-Exodus')) 
+	 {
+    msg.channel.send(ae);
+	 }
+	  if (msg.content.includes('Arrogant CEO: Wife Hunter')) 
+	 {
+    msg.channel.send(wh);
 	 }
 	 
 	 if (msg.content.includes('Assassin de')) 
@@ -87,12 +96,16 @@ client.on('message', msg => {
 	 {
     msg.channel.send(clas);
 	 }
+	  if (msg.content.includes('Child Of Light')) 
+	 {
+    msg.channel.send(col);
+	 }
 	 if (msg.content.includes('Demon Spirit')) 
 	 {
     msg.channel.send(demon);
 	 }
 	 
-	 if (msg.content.includes('Don's Adventure')) 
+	 if (msg.content.includes('https://www.araznovel.com/manga/dons-adventure-in-another-world/')) 
 	 {
     msg.channel.send(don);
 	 }
@@ -100,6 +113,10 @@ client.on('message', msg => {
 	  if (msg.content.includes('Eden Game')) 
 	 {
     msg.channel.send(eden);
+	 }
+	  if (msg.content.includes('EVERFALLEN')) 
+	 {
+    msg.channel.send(ef);
 	 }
 	 
 	  if (msg.content.includes('Exterminator')) 
@@ -164,6 +181,10 @@ client.on('message', msg => {
 	  if (msg.content.includes('Modern Mogal')) 
 	 {
     msg.channel.send(mogal);
+	 }
+	 if (msg.content.includes('Mob Psycho 100')) 
+	 {
+    msg.channel.send(mob);
 	 }
 	 if (msg.content.includes('Murenase! Shiiton')) 
 	 {
@@ -290,7 +311,6 @@ client.on('message', msg => {
 	 {
     msg.channel.send(shinigami);
 	 }
-	 
 	 
 	//novel sonu
 
