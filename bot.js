@@ -74,12 +74,20 @@ client.on('message', msg => {
     msg.channel.send(alma);
 	 }
 	//Almadianos
+  
   //Arrogant CEO
   	 if (msg.content.includes('Arrogant CEO: Wife Hunter'))
   	 {
       msg.channel.send(wh);
   	 }
   	//Arrogant CEO
+    
+    //Assassin
+    if (msg.content.includes('Assassin de')) 
+      {
+       msg.channel.send(assa);
+      }
+    //Assassin
 
 
 
