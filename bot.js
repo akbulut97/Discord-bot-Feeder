@@ -92,7 +92,7 @@ client.on('message', msg => {
     msg.channel.send(demon);
 	 }
 	 
-	 if (msg.content.includes('Dons Adventure')) 
+	 if (msg.content.includes('Don's Adventure')) 
 	 {
     msg.channel.send(don);
 	 }
