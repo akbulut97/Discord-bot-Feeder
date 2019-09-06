@@ -82,12 +82,6 @@ client.on('message', msg => {
   	 }
   	//Arrogant CEO
     
-    //Arrogant CEO
-    	 if (msg.content.includes('Baki the'))
-    	 {
-        msg.channel.send(baki);
-    	 }
-    	//Arrogant CEO
   
 
 
