@@ -72,8 +72,7 @@ client.on('message', msg => {
     msg.reply(alma);
 	 }
 	//Almadianos
-  });
-  client.on('message', msg => {
+  
   	//Almadianos
   	if (msg.content.includes('Americano'))
   	 {
