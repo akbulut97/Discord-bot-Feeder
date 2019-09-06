@@ -58,7 +58,7 @@ mob=seriler.mob;
 shinigami=seriler.shinigami;
 ae=seriler.ae;
 ef=seriler.ef;
-wh= seriler.wh;
+
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
