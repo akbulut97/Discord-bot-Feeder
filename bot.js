@@ -73,26 +73,39 @@ client.on('message', msg => {
     msg.channel.send(alma);
 	 }
 	 
+	  if (msg.content.includes('Americano-Exodus')) 
+	 {
+    msg.channel.send(ae);
+	 }
+	  if (msg.content.includes('Arrogant CEO: Wife Hunter')) 
+	 {
+    msg.channel.send(wh);
+	 }
+	 
 	 if (msg.content.includes('Assassin de')) 
 	 {
     msg.channel.send(assa);
 	 }
 	 
-	  if (msg.content.includes('Baki the')) 
+	 if (msg.content.includes('Baki the')) 
 	 {
     msg.channel.send(baki);
 	 }
 	 
-	  if (msg.content.includes('Class ga')) 
+	 if (msg.content.includes('Class ga')) 
 	 {
     msg.channel.send(clas);
+	 }
+	 if (msg.content.includes('Child Of Light')) 
+	 {
+    msg.channel.send(col);
 	 }
 	 if (msg.content.includes('Demon Spirit')) 
 	 {
     msg.channel.send(demon);
 	 }
 	 
-	 if (msg.content.includes('Dons Adventure')) 
+	 if (msg.content.includes('https://www.araznovel.com/manga/dons-adventure-in-another-world/')) 
 	 {
     msg.channel.send(don);
 	 }
@@ -102,16 +115,22 @@ client.on('message', msg => {
     msg.channel.send(eden);
 	 }
 	 
-	  if (msg.content.includes('Exterminator')) 
+	  if (msg.content.includes('EVERFALLEN')) 
+	 {
+    msg.channel.send(ef);
+	 }
+	 
+	 if (msg.content.includes('Exterminator')) 
 	 {
     msg.channel.send(ex);
 	 }
 	 
-	 	 if (msg.content.includes('Gaikotsu Kishi-sama,')) 
+	 if (msg.content.includes('Gaikotsu Kishi-sama,')) 
 	 {
     msg.channel.send(gai);
 	 }
-	  	 if (msg.content.includes('Gal Gohan')) 
+	 
+	 if (msg.content.includes('Gal Gohan')) 
 	 {
     msg.channel.send(gal);
 	 }
@@ -121,7 +140,7 @@ client.on('message', msg => {
     msg.channel.send(Handy);
 	 }
 	 
-	  if (msg.content.includes('Hiru to Yoru ')) 
+	 if (msg.content.includes('Hiru to Yoru ')) 
 	 {
     msg.channel.send(hiru);
 	 }
@@ -137,15 +156,16 @@ client.on('message', msg => {
     msg.channel.send(icm);
 	 }
 	 
-	  if (msg.content.includes('I Shall Become ')) 
+	 if (msg.content.includes('I Shall Become ')) 
 	 {
     msg.channel.send(queen);
 	 }
 	 
-	  if (msg.content.includes('Kono Yuusha ga Ore')) 
+	 if (msg.content.includes('Kono Yuusha ga Ore')) 
 	 {
     msg.channel.send(konoy);
 	 }	
+	 
 	 if (msg.content.includes('https://www.araznovel.com/manga/kuro-no-shoukanshi/')) 
 	 {
     msg.channel.send(kurom);
@@ -156,7 +176,7 @@ client.on('message', msg => {
     msg.channel.send(oni);
 	 }
 	 
-	  if (msg.content.includes('Limbless Schira')) 
+	 if (msg.content.includes('Limbless Schira')) 
 	 {
     msg.channel.send(limbless);
 	 }
@@ -165,6 +185,12 @@ client.on('message', msg => {
 	 {
     msg.channel.send(mogal);
 	 }
+	 
+	 if (msg.content.includes('Mob Psycho 100')) 
+	 {
+    msg.channel.send(mob);
+	 }
+	 
 	 if (msg.content.includes('Murenase! Shiiton')) 
 	 {
     msg.channel.send(murenase);
@@ -189,6 +215,7 @@ client.on('message', msg => {
 	 {
     msg.channel.send(tensei);
 	 }
+	 
 	  if (msg.content.includes('Saikyou no Shokugyou')) 
 	 {
     msg.channel.send(saikyo);
@@ -203,46 +230,47 @@ client.on('message', msg => {
 	 {
     msg.channel.send(yanslime);
 	 }
-	 
 	  
-	  if (msg.content.includes('Mob Psycho 100')) 
+	 if (msg.content.includes('Mob Psycho 100')) 
 	 {
     msg.channel.send(mob);
 	 }
 	 
-	  if (msg.content.includes('Ten Thousand')) 
+	 if (msg.content.includes('Ten Thousand')) 
 	 {
     msg.channel.send(tengod);
 	 }
+	 
 	 if (msg.content.includes('The Fiancées')) 
 	 {
     msg.channel.send(fiance);
 	 }
+	 
 	  if (msg.content.includes('The Ride On King')) 
 	 {
     msg.channel.send(putin);
 	 }
-	 
 	 
 	 if (msg.content.includes('The Reason Why Raeliana')) 
 	 {
     msg.channel.send(reason);
 	 }
 	 
-	  if (msg.content.includes('Yankee Wa Isekai De')) 
+	 if (msg.content.includes('Yankee Wa Isekai De')) 
 	 {
     msg.channel.send(yankee);
 	 }
 	 
-	  if (msg.content.includes('Yuusha ga Shinda!')) 
+	 if (msg.content.includes('Yuusha ga Shinda!')) 
 	 {
     msg.channel.send(yuusha);
 	 }
 	
-	  if (msg.content.includes('The Wolf Won')) 
+	 if (msg.content.includes('The Wolf Won')) 
 	 {
     msg.channel.send(yuusha);
 	 }
+	 
 	 //manga Sonu
 	 
 	  //novel baş
