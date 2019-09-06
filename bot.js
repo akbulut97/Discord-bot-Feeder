@@ -72,6 +72,10 @@ client.on('message', msg => {
 	 {
     msg.channel.send(alma);
 	 }
+	if (msg.content.includes('Americano-Exodus')) 
+	 {
+    msg.channel.send(ae);
+	 }
 	
 });
 
