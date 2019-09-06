@@ -69,7 +69,7 @@ client.on('message', msg => {
 
 	//Manga başı
 	//Almadianos
-	if (msg.content.includes('Almadianos'))
+	if (msg.content.includes('Almadianos Eiyuuden'))
 	 {
     msg.channel.send(alma);
 	 }
