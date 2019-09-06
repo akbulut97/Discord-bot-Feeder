@@ -74,13 +74,6 @@ client.on('message', msg => {
     msg.channel.send(alma);
 	 }
 	//Almadianos
-  
-  
-  
-
-
-
-
-});
+  });
 
 client.login(process.env.token);
