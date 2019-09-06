@@ -69,7 +69,7 @@ client.on('message', msg => {
 	//Almadianos
 	if (msg.content.includes('Almadianos'))
 	 {
-    msg.channel.send(alma);
+    msg.channel.send('Sa');
 	 }
 	//Almadianos
   });
