@@ -69,7 +69,7 @@ client.on('message', msg => {
 	//Almadianos
 	if (msg.content.includes('Almadianos'))
 	 {
-    msg.reply('alma');
+    msg.reply(alma);
 	 }
 	//Almadianos
   });
@@ -77,7 +77,7 @@ client.on('message', msg => {
   	//Almadianos
   	if (msg.content.includes('Americano'))
   	 {
-      msg.reply('Psa');
+      msg.reply('sa');
   	 }
   	//Almadianos
     });
