@@ -68,10 +68,23 @@ client.on('ready', () => {
 client.on('message', msg => {
 	
 	//Manga başı
-	 if (msg.content.includes('Almadianos')) 
+	//Almadianos
+	if (msg.content.includes('Almadianos')) 
 	 {
     msg.channel.send(alma);
 	 }
+	//Almadianos
+	 
+	//Exodus
+	 if (msg.content.includes('Americano-Exodus')) 
+	 {
+    msg.channel.send(ae);
+	 }
+	 }
+	//Exodus
+	  
+	 
+	 
 
 });
 
