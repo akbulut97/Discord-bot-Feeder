@@ -75,13 +75,7 @@ client.on('message', msg => {
 	 }
 	//Almadianos
   
-  //Arrogant CEO
-  	 if (msg.content.includes('Arrogant CEO: Wife Hunter'))
-  	 {
-      msg.channel.send(wh);
-  	 }
-  	//Arrogant CEO
-    
+  
   
 
 
