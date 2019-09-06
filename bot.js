@@ -80,7 +80,6 @@ client.on('message', msg => {
 	 {
     msg.channel.send(ae);
 	 }
-	 }
 	//Exodus
 	  
 	 
