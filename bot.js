@@ -77,7 +77,7 @@ client.on('message', msg => {
   	//Almadianos
   	if (msg.content.includes('Americano-Exodus'))
   	 {
-      msg.channel.send(ae);
+      msg.channel.send('sa');
   	 }
   	//Almadianos
     });
