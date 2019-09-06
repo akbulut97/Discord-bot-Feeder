@@ -182,6 +182,10 @@ client.on('message', msg => {
 	 {
     msg.channel.send(mogal);
 	 }
+	 if (msg.content.includes('Mob Psycho 100')) 
+	 {
+    msg.channel.send(mob);
+	 }
 	 if (msg.content.includes('Murenase! Shiiton')) 
 	 {
     msg.channel.send(murenase);
