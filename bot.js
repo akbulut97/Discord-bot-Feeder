@@ -181,7 +181,7 @@ client.on('message', msg => {
     msg.channel.send(limbless);
 	 }
 	 
-	  if (msg.content.includes('Modern Mogal')) 
+	  if (msg.content.includes('Modern MoGal')) 
 	 {
     msg.channel.send(mogal);
 	 }
