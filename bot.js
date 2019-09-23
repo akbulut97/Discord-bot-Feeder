@@ -268,7 +268,7 @@ client.on('message', msg => {
 	
 	 if (msg.content.includes('The Wolf Won')) 
 	 {
-    msg.channel.send(yuusha);
+    msg.channel.send(wolf);
 	 }
 	 
 	 //manga Sonu
