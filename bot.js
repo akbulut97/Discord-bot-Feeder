@@ -59,6 +59,7 @@ shinigami=seriler.shinigami;
 ae=seriler.ae;
 ef=seriler.ef;
 wh= seriler.wh;
+rakudai=seriler.rakudai;
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
@@ -144,7 +145,10 @@ client.on('message', msg => {
 	 {
     msg.channel.send(hiru);
 	 }
-	 
+	  if (msg.content.includes('The Unsuccessful Yet Academically Unparalleled Sage ')) 
+	 {
+    msg.channel.send(rakudai);
+	 }
 
 	 if (msg.content.includes('İnstant Bullet')) 
 	 {
