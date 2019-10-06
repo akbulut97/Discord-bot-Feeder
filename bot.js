@@ -145,7 +145,7 @@ client.on('message', msg => {
 	 {
     msg.channel.send(hiru);
 	 }
-	  if (msg.content.includes('The Unsuccessful Yet Academically Unparalleled Sage ')) 
+	  if (msg.content.includes('The Unsuccessful Yet Academically Unparalleled Sage')) 
 	 {
     msg.channel.send(rakudai);
 	 }
