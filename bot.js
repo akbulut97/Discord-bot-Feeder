@@ -60,6 +60,7 @@ ae=seriler.ae;
 ef=seriler.ef;
 wh= seriler.wh;
 rakudai=seriler.rakudai;
+gamer=seriler.gamer;
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
@@ -135,7 +136,12 @@ client.on('message', msg => {
 	 {
     msg.channel.send(gal);
 	 }
-	 
+	
+	  if (msg.content.includes('Hanging Out With')) 
+	 {
+    msg.channel.send(gamer);
+	 }
+	
 	 if (msg.content.includes('Handyman Saitou')) 
 	 {
     msg.channel.send(Handy);
