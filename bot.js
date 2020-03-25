@@ -61,6 +61,7 @@ ef=seriler.ef;
 wh= seriler.wh;
 rakudai=seriler.rakudai;
 gamer=seriler.gamer;
+wolfn=seriler.wolfn;
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
@@ -276,11 +277,14 @@ client.on('message', msg => {
     msg.channel.send(yuusha);
 	 }
 	
-	 if (msg.content.includes('The Wolf Won')) 
+	 if (msg.content.includes('https://www.araznovel.com/manga/the-wolf-wont-sleep')) 
 	 {
     msg.channel.send(wolf);
 	 }
-	 
+	  if (msg.content.includes('https://www.araznovel.com/manga/the-wolf-wont-sleep-novel')) 
+	 {
+    msg.channel.send(wolfn);
+	 }
 	 //manga Sonu
 	 
 	  //novel baş
