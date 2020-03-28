@@ -277,7 +277,7 @@ client.on('message', msg => {
     msg.channel.send(yuusha);
 	 }
 	
-	 if (msg.content.includes('https://www.araznovel.com/manga/the-wolf-wont-sleep')) 
+	 if (msg.content.includes('https://www.araznovel.com/manga/the-wolf-wont-sleep/bolum')) 
 	 {
     msg.channel.send(wolf);
 	 }
