@@ -12,6 +12,7 @@ assa=seriler.assa;
 baki=seriler.baki;
 clas=seriler.clas;
 col=seriler.col;
+colorless= seriler.colorless;
 demon=seriler.demon;
 don=seriler.don; 
 eden=seriler.eden; 
@@ -103,6 +104,11 @@ client.on('message', msg => {
 	 {
     msg.channel.send(col);
 	 }
+	if (msg.content.includes('Colorless')) 
+	 {
+    msg.channel.send(colorless);
+	 }
+	
 	 if (msg.content.includes('Demon Spirit')) 
 	 {
     msg.channel.send(demon);
