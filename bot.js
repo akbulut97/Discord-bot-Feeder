@@ -268,7 +268,7 @@ client.on('message', msg => {
     msg.channel.send(putin);
 	 }
 	 
-	 if (msg.content.includes('The Reason Why Raeliana')) 
+	 if (msg.content.includes('Neden Hep')) 
 	 {
     msg.channel.send(reason);
 	 }
