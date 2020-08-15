@@ -8,6 +8,7 @@ token= ayarlar.token;
 
 
 alma=seriler.alma;
+fuku=seriler.fuku;
 assa=seriler.assa;
 baki=seriler.baki;
 clas=seriler.clas;
@@ -114,6 +115,10 @@ client.on('message', msg => {
     msg.channel.send(demon);
 	 }
 	 
+	 if (msg.content.includes('Fukushuu Kansuisha no ')) 
+	 {
+    msg.channel.send(fuku);
+	 }
 	 if (msg.content.includes('https://www.araznovel.com/manga/dons-adventure-in-another-world/')) 
 	 {
     msg.channel.send(don);
