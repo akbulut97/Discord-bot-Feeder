@@ -188,7 +188,7 @@ client.on('message', msg => {
     msg.channel.send(konoy);
 	 }	
 	 
-	 if (msg.content.includes('https://www.araznovel.com/manga/kuro-no-shoukanshi/')) 
+	 if (msg.content.includes('Kuro No Shoukanshi')) 
 	 {
     msg.channel.send(kurom);
 	 }
