@@ -64,6 +64,10 @@ wh= seriler.wh;
 rakudai=seriler.rakudai;
 gamer=seriler.gamer;
 wolfn=seriler.wolfn;
+kuma=seriler.kuma;
+cheat=seriler.cheat;
+sao=seriler.sao;
+
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
@@ -187,6 +191,10 @@ client.on('message', msg => {
 	 {
     msg.channel.send(konoy);
 	 }	
+	 if (msg.content.includes('Kuma To Tanuki -')) 
+	 {
+    msg.channel.send(kuma);
+	 }
 	 
 	 if (msg.content.includes('Kuro No Shoukanshi')) 
 	 {
@@ -311,13 +319,21 @@ client.on('message', msg => {
 	 {
     msg.channel.send(grimgar);
 	 }
-	if (msg.content.includes('No Game No Life -ArazNovel')) 
+	if (msg.content.includes('No Game No Life -')) 
 	 {
     msg.channel.send(ngnl);
 	 }
 	if (msg.content.includes('Super God Gene')) 
 	 {
     msg.channel.send(supergene);
+	 }
+	if (msg.content.includes('Sword Art Online -')) 
+	 {
+    msg.channel.send(sao);
+	 }
+	if (msg.content.includes('I Got A Cheat Ability In A Different World,')) 
+	 {
+    msg.channel.send(cheat);
 	 }
 	if (msg.content.includes('Sono Mono, Nochi Ni...')) 
 	 {
